@@ -4,9 +4,9 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | 0.0.2   |                                                              |
-|       | 0.0.3   |                                                              |
+|  23.01.2023     | 0.0.1   | Projekt Dokumentation angefangen. |
+|  13.02.2023     | 0.0.2   |  Tutorial ertsellt.                                                             |
+| 20.02.2023      | 0.0.3   |  Login ertsellt                                                            |
 |       | 0.0.4   |                                                              |
 |       | 0.0.5   |                                                              |
 |       | 0.0.6   |                                                              |
