@@ -59,6 +59,13 @@ Als Programmiersprache werde ich React verwenden, um die Darstellung, sowie die 
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |     Programm ist gestartet.         | Der Administrator gibt falsche Anmeldedaten ein und versucht sich anzumelden        |  Das System gibt eine Fehlermeldung aus, dass die Anmeldedaten ungültig sind                 |
 | 1.2  |    Programm ist gestartet.          |  Der Administrator gibt gültige Anmeldedaten ein und versucht sich anzumelden        |     Das System meldet den Benutzer erfolgreich an              |
+| 2.1  | Programm ist gestartet. Man ist als Admin angemeldet  |  Der Administrator legt eine neue Phrase an        | Die Phrase wird erfolgreich in der Datenbank gespeichert und ist im Fragenpool des Spiels verfügbar       |
+| 3.1 |   Programm ist gestartet. Man ist als Admin angemeldet    |   Der Administrator legt eine neue Kategorie an       |   Die Kategorie wird erfolgreich in der Datenbank gespeichert und ist im Fragenpool des Spiels verfügbar     |
+| 4.1  |   Programm ist gestartet. Man ist als Admin angemeldet    |    Der Administrator löscht einen Eintrag aus der Highscore-Liste      |   Der Eintrag wird erfolgreich aus der Datenbank gelöscht und ist nicht mehr in der Highscore-Liste verfügbar     |
+| 5.1  |       |          |        |
+| 6.1  |       |          |        |
+| 7.1 |       |          |        |
+| 8.1  |       |          |        |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
@@ -117,6 +124,6 @@ Siehe Code
 
 # 10 Allgemeines
 
-- [ ] Ich habe die Rechtschreibung überprüft
-- [ ] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
-- [ ] Ich habe alle mit ✍️ markierten Teile ersetzt
+- [x ] Ich habe die Rechtschreibung überprüft
+- [ x] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
+- [x ] Ich habe alle mit ✍️ markierten Teile ersetzt
