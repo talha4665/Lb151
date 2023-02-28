@@ -41,31 +41,29 @@ Als Programmiersprache werde ich React verwenden, um die Darstellung, sowie die 
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |     	Muss            | 	Funktional     | Als ein Benutzer möchte ich mich anmelden können, damit ich mein High-Score sehen kann  |
-US-№	Verbindlichkeit	Typ	Beschreibung
-1	Muss	Funktional	Als Administrator möchte ich mich durch Eingabe eines Benutzernamens und Passworts authentifizieren, um auf die Verwaltungsfunktionen zugreifen zu können.
-2	Muss	Funktional	Als Administrator möchte ich Phrasen und Rätselwörter anlegen, ändern und löschen können, um den Fragenpool des Spiels verwalten zu können.
-3	Muss	Funktional	Als Administrator möchte ich Kategorien anlegen und jedem Wort bzw. jeder Frage einer Kategorie zuordnen können, um den Fragenpool des Spiels zu organisieren.
-4	Muss	Funktional	Als Administrator möchte ich einzelne Einträge der Highscore-Liste löschen können, um diese zu bereinigen.
-5	Muss	Funktional	Als Spieler möchte ich einen Namen eingeben können, der auf der Highscore-Liste erscheint, um meine Leistung mit anderen Spielern zu vergleichen.
-6	Muss	Funktional	Als Spieler möchte ich zu jeder Zeit meinen Kontostand und meine Lebenspunkte sehen können, um den Spielverlauf nachvollziehen zu können.
-7	Muss	Funktional	Als Spieler möchte ich über das Ergebnis jeder Spielrunde informiert werden, um mein Wissen und meine Strategie zu verbessern.
-8	Muss	Funktional	Als Spieler möchte ich in der Highscore-Liste folgende Daten aufgeführt sehen: meinen Rang, meinen Namen, den Zeitpunkt des Spiels, meinen Geldbetrag und die Anzahl der Spielrunden, um meine Leistung mit anderen Spielern zu vergleichen.
-9	Muss	Funktional	Als Spieler möchte ich während des Spiels keine bereits gestellten Rätsel-Wörter oder Phrasen erneut gestellt bekommen, um einen fairen Spielverlauf zu gewährleisten.
+| 1    |     	Muss            | 	Funktional     |Als Administrator möchte ich mich durch Eingabe eines Benutzernamens und Passworts authentifizieren, um auf die Verwaltungsfunktionen zugreifen zu können.  |
+| 2   |     	Muss            | 	Funktional     |Als Administrator möchte ich Phrasen und Rätselwörter anlegen, ändern und löschen können, um den Fragenpool des Spiels verwalten zu können.  |
+| 3    |     	Muss            | 	Funktional     |Als Administrator möchte ich Kategorien anlegen und jedem Wort bzw. jeder Frage einer Kategorie zuordnen können, um den Fragenpool des Spiels zu organisieren. |
+| 4    |     	Muss            | 	Funktional     | Als Administrator möchte ich einzelne Einträge der Highscore-Liste löschen können, um diese zu bereinigen. |
+| 5    |     	Muss            | 	Funktional     |Als Spieler möchte ich einen Namen eingeben können, der auf der Highscore-Liste erscheint, um meine Leistung mit anderen Spielern zu vergleichen.  |
+| 6    |     	Muss            | 	Funktional     | Als Spieler möchte ich zu jeder Zeit meinen Kontostand und meine Lebenspunkte sehen können, um den Spielverlauf nachvollziehen zu können. |
+| 7    |     	Muss            | 	Funktional     | Als Spieler möchte ich in der Highscore-Liste folgende Daten aufgeführt sehen: meinen Rang, meinen Namen, den Zeitpunkt des Spiels, meinen Geldbetrag und die Anzahl der Spielrunden, um meine Leistung mit anderen Spielern zu vergleichen. |
+| 8    |     	Muss            | 	Funktional     |	Als Spieler möchte ich während des Spiels keine bereits gestellten Rätsel-Wörter oder Phrasen erneut gestellt bekommen, um einen fairen Spielverlauf zu gewährleisten.  |
+
+
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
 # 4.2 Testfälle
 
 | TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  |     Programm ist gestartet.         | Der Administrator gibt falsche Anmeldedaten ein und versucht sich anzumelden        |  Das System gibt eine Fehlermeldung aus, dass die Anmeldedaten ungültig sind                 |
+| 1.2  |    Programm ist gestartet.          |  Der Administrator gibt gültige Anmeldedaten ein und versucht sich anzumelden        |     Das System meldet den Benutzer erfolgreich an              |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 # 5 Prototyp
-
-✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
+Siehe Code
 
 # 6 Implementation
 
@@ -73,14 +71,28 @@ US-№	Verbindlichkeit	Typ	Beschreibung
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-| ...        |       |              |
+|   1    |       |              |
+|    2   |       |              |
+|   3    |       |              |
+|    4   |       |              |
+|    5   |       |              |
+|    6   |       |              |
+|    7   |       |              |
+|    8   |       |              |
 
 # 7 Projektdokumentation
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
 | 1    | ja / nein |                                           |
-| ...  |           |                                           |
+| 2    | ja / nein |                                           |
+| 3    | ja / nein |                                           |
+| 4    | ja / nein |                                           |
+| 5    | ja / nein |                                           |
+| 6    | ja / nein |                                           |
+| 7    | ja / nein |                                           |
+| 8    | ja / nein |                                           |
+
 
 # 8 Testprotokoll
 
@@ -88,8 +100,14 @@ US-№	Verbindlichkeit	Typ	Beschreibung
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1 |       |          |        |
+| 2.1  |       |          |        |
+| 3.1 |       |          |        |
+| 4.1  |       |          |        |
+| 5.1  |       |          |        |
+| 6.1  |       |          |        |
+| 7.1 |       |          |        |
+| 8.1  |       |          |        |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
