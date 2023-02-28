@@ -7,27 +7,27 @@
 |  23.01.2023     | 0.0.1   | Projekt Dokumentation angefangen. |
 |  13.02.2023     | 0.0.2   |  Tutorial ertsellt.                                                             |
 | 20.02.2023      | 0.0.3   |  Login ertsellt                                                            |
-|       | 0.0.4   |                                                              |
-|       | 0.0.5   |                                                              |
-|       | 0.0.6   |                                                              |
-|       | 1.0.0   |                                                              |
+|  22.02.2023     | 0.0.4   |    Glücksrad erstellt                                                          |
+|  25.02.2023     | 0.0.5   |  Wort Rate Funktion ertsllt                                                           |
+|   27.02.2023    | 0.0.6   |  Währung Geld impletiert                                                             |
+|    28.02.2023   | 0.0.7   | Projekt Doku fertig erstellt                                                             |
 
 # 0 Ihr Projekt
 
-Im Projekt geht es darum ein Glücksrad-Spiel mittels einer Webapplikation zu implementieren. Im Spiel soll es darum gehen ein Wort, welches in einem Gitter abgebildet wird, zu erraten. Jedes Wort den man erraten soll entspricht zu einer zufälligen Kategorie, damit der Spieler sich beim Erraten orientieren kann. Damit der Spieler das Wort auflöst, muss er entsprechend den Glücksrad drehen. Pro erratenen Buchstaben aus dem Lösungswort, wird dem Spieler ein bestimmter Geldbetrag gutgeschrieben, je nach Wahrscheinlichkeit des Buchstaben. Falls der erratene Buchstabe nicht im Lösungswort enthalten ist, verliert er ein Leben (insg. drei Leben) und das Spiel ist beendet.
+Im Projekt geht es darum ein Glücksrad-Spiel mittels einer Webapplikation zu implementieren. Im Spiel soll es darum gehen ein Wort zu erraten. Jedes Wort den man erraten soll entspricht zu einem Hilfsatz, damit der Spieler sich beim Erraten orientieren kann. Nach dem auflösen des Wortes, kann der Spieler entsprechend am Glücksrad drehen. Nach dem erraten des Lösungswort, wird dem Spieler ein bestimmter Geldbetrag gutgeschrieben, den Geldbetrag kann man am Glücksrad multiplizieren oder alles verlieren. Falls das erratene Wort nicht dem Lösungswort entspricht , Verliehrt man Versuche (Leben)..
 
 # 1 Analyse
 
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
-* Tier 1 (Presentation): ...
-* Tier 2 (Webserver):
-* Tier 3 (Application Server):
-* Tier 4 (Dataserver):
+* Tier 1 (Presentation): Anzeigen von Buttons (Drahen, Logout, New Word)
+* Tier 2 (Webserver): Login Daten geschützt speichern
+* Tier 3 (Application Server): Die Usereingabe überprüfen anschliessend einen Wert ausgeben.
+* Tier 4 (Dataserver): Speichern von Logindaten auf Firebase.
 
 # 2 Technologie
 
-Als Programmiersprache werde ich JavaScript verwenden, um die Darstellung, sowie die Eingabe und Validierung der Daten zu ermöglichen. Damit ich die Daten wie gewünscht speichere, werde ich eine Firebase-Datenbank aufsetzen und diese mit JavaScript verknüpfen und dort all die Daten einfügen bzw. auslesen oder abändern etc.
+Als Programmiersprache werde ich React verwenden, um die Darstellung, sowie die Eingabe und Validierung der Daten zu ermöglichen. Damit ich die Daten wie gewünscht speichere, werde ich eine Firebase-Datenbank aufsetzen und diese mit JavaScript verknüpfen und dort all die Daten einfügen bzw. auslesen oder abändern etc.
 
 # 3 Datenbank
 
