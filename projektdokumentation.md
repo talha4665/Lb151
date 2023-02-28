@@ -42,23 +42,16 @@ Als Programmiersprache werde ich React verwenden, um die Darstellung, sowie die 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |     	Muss            | 	Funktional     | Als ein Benutzer möchte ich mich anmelden können, damit ich mein High-Score sehen kann  |
-Als Administrator möchte ich mich mit meinem Benutzernamen und Passwort authentifizieren können, um meine Administratortätigkeiten ausführen zu können.
-
-Als Administrator möchte ich Phrasen und Rätselwörter anlegen, ändern und löschen können, damit ich das Spiel aktualisieren und verwalten kann.
-
-Als Administrator möchte ich Kategorien anlegen und jedes Wort bzw. jede Frage einer Kategorie zuordnen können, damit das Spiel strukturiert und übersichtlich bleibt.
-
-Als Administrator möchte ich in der Lage sein, einzelne Einträge der Highscore-Liste zu löschen, damit ich diese bei Bedarf aktualisieren kann.
-
-Als Spieler möchte ich einen Namen eingeben können, der auf der Highscore-Liste erscheint, um meine Leistungen in der Liste anzeigen zu können.
-
-Als Spieler möchte ich zu jeder Zeit den Kontostand und die Lebenspunkte sehen können, um meine Fortschritte im Spiel zu überwachen.
-
-Als Spieler möchte ich informiert werden, ob meine gewählte Antwort richtig oder falsch war, um mein Wissen zu verbessern.
-
-Als Spieler möchte ich in der Highscore-Liste den Rang, den Namen des Spielers, den Zeitpunkt des Spiels, den Geldbetrag und die Anzahl der Spielrunden sehen, um meine Leistungen mit anderen Spielern vergleichen zu können.
-
-Als Spieler möchte ich sicherstellen, dass kein Rätsel-Wort und keine Phrase mehr als einmal gestellt wird, um das Spiel fair zu gestalten.
+US-№	Verbindlichkeit	Typ	Beschreibung
+1	Muss	Funktional	Als Administrator möchte ich mich durch Eingabe eines Benutzernamens und Passworts authentifizieren, um auf die Verwaltungsfunktionen zugreifen zu können.
+2	Muss	Funktional	Als Administrator möchte ich Phrasen und Rätselwörter anlegen, ändern und löschen können, um den Fragenpool des Spiels verwalten zu können.
+3	Muss	Funktional	Als Administrator möchte ich Kategorien anlegen und jedem Wort bzw. jeder Frage einer Kategorie zuordnen können, um den Fragenpool des Spiels zu organisieren.
+4	Muss	Funktional	Als Administrator möchte ich einzelne Einträge der Highscore-Liste löschen können, um diese zu bereinigen.
+5	Muss	Funktional	Als Spieler möchte ich einen Namen eingeben können, der auf der Highscore-Liste erscheint, um meine Leistung mit anderen Spielern zu vergleichen.
+6	Muss	Funktional	Als Spieler möchte ich zu jeder Zeit meinen Kontostand und meine Lebenspunkte sehen können, um den Spielverlauf nachvollziehen zu können.
+7	Muss	Funktional	Als Spieler möchte ich über das Ergebnis jeder Spielrunde informiert werden, um mein Wissen und meine Strategie zu verbessern.
+8	Muss	Funktional	Als Spieler möchte ich in der Highscore-Liste folgende Daten aufgeführt sehen: meinen Rang, meinen Namen, den Zeitpunkt des Spiels, meinen Geldbetrag und die Anzahl der Spielrunden, um meine Leistung mit anderen Spielern zu vergleichen.
+9	Muss	Funktional	Als Spieler möchte ich während des Spiels keine bereits gestellten Rätsel-Wörter oder Phrasen erneut gestellt bekommen, um einen fairen Spielverlauf zu gewährleisten.
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
 # 4.2 Testfälle
