@@ -83,21 +83,22 @@ Siehe im Code
 |    4   |    25.02.2023      |     Es gibt keinen Highscore.   Nur Geldmenge wurde implementiert        |
 |    5   |   25.02.2023      |      Es gibt keinen Highscore.   Man kann sich nicht mit anderen messen.           |
 |    6   | 27.02.2023       |   Es gibt einen Startguthaben und nach jedem richtigen Wort wird eine gewisse Geldmenge addiert. Dazu sieht man auch die Versuche (Leben), die man hat und es wird immer eins subtrahiert wenn man etwas eingibt.         |
-|    7   |       |              |
+|    7   |    27.02.2023   |              |
 |    8   |       |              |
 
 # 7 Projektdokumentation
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1    | ja |                                           |
+| 1    | ja |   Hier habe ich den Provider: const googleProvider = new GoogleAuthProvider(); und hier ist die Funktion, wo erst nach einem Button onClick aktiviert wird und informationen an die Datenbank weiterleitet: ![image](https://user-images.githubusercontent.com/74661777/222021714-098292d0-c4ad-4293-8a19-9fab1962911e.png)
+ |
 | 2    |  nein |                                           |
 | 3    |  nein |                                           |
 | 4    |  nein |                                           |
 | 5    |  nein |                                           |
-| 6    | ja | Habe für beide einen Konstanten erstellt, wie eine variable =  const [geld, setGeld] = useState(100); const [remainingGuesses, setRemainingGuesses] = useState(10);  ![image](https://user-images.githubusercontent.com/74661777/222020276-9c246945-2e9c-4a59-87e8-efeb9093e4b1.png)
+| 6    | ja | Habe für beide einen Konstanten erstellt, wie eine variable =  const [geld, setGeld] = useState(100); const [remainingGuesses, setRemainingGuesses] = useState(10); Und Hier sieht man wie die const in verbindung zur einer Funktion eingesetzt werden: ![image](https://user-images.githubusercontent.com/74661777/222020276-9c246945-2e9c-4a59-87e8-efeb9093e4b1.png)
                                  |
-| 7    | ja / nein |                                           |
+| 7    |  nein |                                           |
 | 8    | ja / nein |                                           |
 
 
