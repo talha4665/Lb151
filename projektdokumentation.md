@@ -90,8 +90,7 @@ Siehe im Code
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1    | ja |   Hier habe ich den Provider: const googleProvider = new GoogleAuthProvider(); und hier ist die Funktion, wo erst nach einem Button onClick aktiviert wird und informationen an die Datenbank weiterleitet: ![image](https://user-images.githubusercontent.com/74661777/222021714-098292d0-c4ad-4293-8a19-9fab1962911e.png)
- |
+| 1    | ja |   Hier habe ich den Provider: const googleProvider = new GoogleAuthProvider(); und hier ist die Funktion, wo erst nach einem Button onClick aktiviert wird und informationen an die Datenbank weiterleitet: ![image](https://user-images.githubusercontent.com/74661777/222021714-098292d0-c4ad-4293-8a19-9fab1962911e.png) |
 | 2    |  nein |                                           |
 | 3    |  nein |                                           |
 | 4    |  nein |                                           |
