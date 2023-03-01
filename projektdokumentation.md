@@ -81,10 +81,8 @@ Siehe im Code
 |    2   |    25.02.2023   |  Ich habe einfach eine Lokale Liste mit den Wörtern           |
 |   3    |    25.02.2023   |   Es gibt keien Kategorien sondern nur Hinweise.         |
 |    4   |    25.02.2023      |     Es gibt keinen Highscore.   Nur Geldmenge wurde implementiert        |
-|    5   |   25.02.2023      |      Es gibt keinen Highscore.   Man kann sich nicht mit anderen messen.           |
 |    6   | 27.02.2023       |   Es gibt einen Startguthaben und nach jedem richtigen Wort wird eine gewisse Geldmenge addiert. Dazu sieht man auch die Versuche (Leben), die man hat und es wird immer eins subtrahiert wenn man etwas eingibt.         |
-|    7   |    27.02.2023   |              |
-|    8   |       |              |
+|    8   |   25.02.2023    |  Es werden zufällige Wörter aus dem lokalen Speicherort gewählt und ausgegegeben.            |
 
 # 7 Projektdokumentation
 
@@ -95,10 +93,9 @@ Siehe im Code
 | 3    |  nein |                                           |
 | 4    |  nein |                                           |
 | 5    |  nein |                                           |
-| 6    | ja | Habe für beide einen Konstanten erstellt, wie eine variable =  const [geld, setGeld] = useState(100); const [remainingGuesses, setRemainingGuesses] = useState(10); Und Hier sieht man wie die const in verbindung zur einer Funktion eingesetzt werden: ![image](https://user-images.githubusercontent.com/74661777/222020276-9c246945-2e9c-4a59-87e8-efeb9093e4b1.png)
-                                 |
+| 6    | ja | Habe für beide einen Konstanten erstellt, wie eine variable =  const [geld, setGeld] = useState(100); const [remainingGuesses, setRemainingGuesses] = useState(10); Und Hier sieht man wie die const in verbindung zur einer Funktion eingesetzt werden: ![image](https://user-images.githubusercontent.com/74661777/222020276-9c246945-2e9c-4a59-87e8-efeb9093e4b1.png)      |
 | 7    |  nein |                                           |
-| 8    | ja / nein |                                           |
+| 8    |  nein |       Es kommen einfach zufällig gewählten Wörter:  ![image](https://user-images.githubusercontent.com/74661777/222022136-aaf64744-fa38-41d3-b396-c5018cb21b68.png) |
 
 
 # 8 Testprotokoll
