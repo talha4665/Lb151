@@ -113,13 +113,13 @@ Siehe im Code
 | 7.1 |   27.02.2023     |         Nok |   Furkan Talha Göz     |
 | 8.1  |    27.02.2023    |          Nok|   Furkan Talha Göz     |
 
-![image](https://user-images.githubusercontent.com/74661777/222165894-d1b0e4b2-5e18-40c5-88b5-092ebddec0a8.png)
+Das Video fidden Sie im Abgabe ordner in einer Powerpoint.
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 Fazit:
 
 Ich bin nicht zufrieden mit meinem Programm. Ich habe die meisten Forderungen nicht erfüllt.
-# 9 
+# 9 Readme Datei im Ordner!
 
 ✍️ Beschreiben Sie ausführlich in einer README.md, wie Ihre Applikation gestartet und ausgeführt wird. Legen Sie eine geeignete Möglichkeit (Skript, Export, …) bei, Ihre Datenbank wiederherzustellen.
 
