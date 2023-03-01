@@ -8,7 +8,7 @@
 |  13.02.2023     | 0.0.2   |  Tutorial ertsellt.                                                             |
 | 20.02.2023      | 0.0.3   |  Login ertsellt                                                            |
 |  22.02.2023     | 0.0.4   |    Glücksrad erstellt                                                          |
-|  25.02.2023     | 0.0.5   |  Wort Rate Funktion ertsllt                                                           |
+|  25.02.2023     | 0.0.5   |  Wort Rate Funktion erstellt                                                           |
 |   27.02.2023    | 0.0.6   |  Währung Geld impletiert                                                             |
 |    28.02.2023   | 0.0.7   | Projekt Doku fertig erstellt                                                             |
 
@@ -45,7 +45,7 @@ Die Datenbank steuere ich mit Firebase an.
 | 3    |     	Muss            | 	Funktional     |Als Administrator möchte ich Kategorien anlegen und jedem Wort bzw. jeder Frage einer Kategorie zuordnen können, um den Fragenpool des Spiels zu organisieren. |
 | 4    |     	Muss            | 	Funktional     | Als Administrator möchte ich einzelne Einträge der Highscore-Liste löschen können, um diese zu bereinigen. |
 | 5    |     	Muss            | 	Funktional     |Als Spieler möchte ich einen Namen eingeben können, der auf der Highscore-Liste erscheint, um meine Leistung mit anderen Spielern zu vergleichen.  |
-| 6    |     	Muss            | 	Funktional     | Als Spieler möchte ich zu jeder Zeit meinen Kontostand und meine Lebenspunkte sehen können, um den Spielverlauf nachvollziehen zu können. |
+| 6    |     	Muss            | 	Funktional     | Als Spieler möchte ich zu jeder Zeit meinen Kontostand und meine Lebenspunkte (Versuche) sehen können, um den Spielverlauf nachvollziehen zu können. |
 | 7    |     	Muss            | 	Funktional     | Als Spieler möchte ich in der Highscore-Liste folgende Daten aufgeführt sehen: meinen Rang, meinen Namen, den Zeitpunkt des Spiels, meinen Geldbetrag und die Anzahl der Spielrunden, um meine Leistung mit anderen Spielern zu vergleichen. |
 | 8    |     	Muss            | 	Funktional     |	Als Spieler möchte ich während des Spiels keine bereits gestellten Rätsel-Wörter oder Phrasen erneut gestellt bekommen, um einen fairen Spielverlauf zu gewährleisten.  |
 
@@ -78,11 +78,11 @@ Siehe im Code
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
 |   1    |  20.02.2023   |Ich habe einen Login ertsellt und mit Firebase verbunden             |
-|    2   |       |              |
-|   3    |       |              |
-|    4   |       |              |
-|    5   |       |              |
-|    6   |       |              |
+|    2   |    25.02.2023   |  Ich habe einfach eine Lokale Liste mit den Wörtern           |
+|   3    |    25.02.2023   |   Es gibt keien Kategorien sondern nur Hinweise.         |
+|    4   |    25.02.2023      |     Es gibt keinen Highscore.   Nur Geldmenge wurde implementiert        |
+|    5   |   25.02.2023      |      Es gibt keinen Highscore.   Man kann sich nicht mit anderen messen.           |
+|    6   | 27.02.2023       |   Es gibt einen Startguthaben und nach jedem richtigen Wort wird eine gewisse Geldmenge addiert. Dazu sieht man auch die Versuche (Leben), die man hat und es wird immer eins subtrahiert wenn man etwas eingibt.         |
 |    7   |       |              |
 |    8   |       |              |
 
@@ -90,12 +90,13 @@ Siehe im Code
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1    | ja / nein |                                           |
-| 2    | ja / nein |                                           |
-| 3    | ja / nein |                                           |
-| 4    | ja / nein |                                           |
-| 5    | ja / nein |                                           |
-| 6    | ja / nein |                                           |
+| 1    | ja |                                           |
+| 2    |  nein |                                           |
+| 3    |  nein |                                           |
+| 4    |  nein |                                           |
+| 5    |  nein |                                           |
+| 6    | ja | Habe für beide einen Konstanten erstellt, wie eine variable =  const [geld, setGeld] = useState(100); const [remainingGuesses, setRemainingGuesses] = useState(10);  ![image](https://user-images.githubusercontent.com/74661777/222020276-9c246945-2e9c-4a59-87e8-efeb9093e4b1.png)
+                                 |
 | 7    | ja / nein |                                           |
 | 8    | ja / nein |                                           |
 
