@@ -104,18 +104,22 @@ Siehe im Code
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1 |       |          |        |
-| 2.1  |       |          |        |
-| 3.1 |       |          |        |
-| 4.1  |       |          |        |
-| 5.1  |       |          |        |
-| 6.1  |       |          |        |
-| 7.1 |       |          |        |
-| 8.1  |       |          |        |
+| 1.1 |   27.02.2023    |   Ok       |   Furkan Talha Göz     |
+| 2.1  |   27.02.2023     |   Nok       |  Furkan Talha Göz      |
+| 3.1 |       27.02.2023 |       Nok   |    Furkan Talha Göz    |
+| 4.1  |   27.02.2023     |         Nok |Furkan Talha Göz        |
+| 5.1  |    27.02.2023    |     Nok     |    Furkan Talha Göz    |
+| 6.1  |      27.02.2023  |   Ok       |  Furkan Talha Göz      |
+| 7.1 |   27.02.2023     |         Nok |   Furkan Talha Göz     |
+| 8.1  |    27.02.2023    |          Nok|   Furkan Talha Göz     |
+
+![image](https://user-images.githubusercontent.com/74661777/222165894-d1b0e4b2-5e18-40c5-88b5-092ebddec0a8.png)
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Fazit:
 
-# 9 `README.md`
+Ich bin nicht zufrieden mit meinem Programm. Ich habe die meisten Forderungen nicht erfüllt.
+# 9 
 
 ✍️ Beschreiben Sie ausführlich in einer README.md, wie Ihre Applikation gestartet und ausgeführt wird. Legen Sie eine geeignete Möglichkeit (Skript, Export, …) bei, Ihre Datenbank wiederherzustellen.
 
