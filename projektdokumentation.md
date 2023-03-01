@@ -30,8 +30,7 @@ Im Projekt geht es darum ein Glücksrad-Spiel mittels einer Webapplikation zu im
 Als Programmiersprache werde ich React verwenden, um die Darstellung, sowie die Eingabe und Validierung der Daten zu ermöglichen. Damit ich die Daten wie gewünscht speichere, werde ich eine Firebase-Datenbank aufsetzen und diese mit JavaScript verknüpfen und dort all die Daten einfügen bzw. auslesen oder abändern etc.
 
 # 3 Datenbank
-
-✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
+Die Datenbank steuere ich mit Firebase an.
 
 # 4.1 User Stories
 
@@ -62,15 +61,15 @@ Als Programmiersprache werde ich React verwenden, um die Darstellung, sowie die 
 | 2.1  | Programm ist gestartet. Man ist als Admin angemeldet  |  Der Administrator legt eine neue Phrase an        | Die Phrase wird erfolgreich in der Datenbank gespeichert und ist im Fragenpool des Spiels verfügbar       |
 | 3.1 |   Programm ist gestartet. Man ist als Admin angemeldet    |   Der Administrator legt eine neue Kategorie an       |   Die Kategorie wird erfolgreich in der Datenbank gespeichert und ist im Fragenpool des Spiels verfügbar     |
 | 4.1  |   Programm ist gestartet. Man ist als Admin angemeldet    |    Der Administrator löscht einen Eintrag aus der Highscore-Liste      |   Der Eintrag wird erfolgreich aus der Datenbank gelöscht und ist nicht mehr in der Highscore-Liste verfügbar     |
-| 5.1  |       |          |        |
-| 6.1  |       |          |        |
-| 7.1 |       |          |        |
-| 8.1  |       |          |        |
+| 5.1  |   Programm ist gestartet    | Öffne das Spiel und navigiere zum Menü "Highscore".         |  Der Name des Spielers wird in der Highscore-Liste angezeigt.      |
+| 6.1  |Öffne das Spiel und starte eine neue Spielrunde.       |  starte eine neue Spielrunde        |   Der Kontostand und die Lebenspunkte (Versuche) des Spielers werden während des Spiels auf dem Interface angezeigt.      |
+| 7.1 |   Öffne das Spiel und starte eine neue Spielrunde.     |     Überprüfen Sie die aufgeführten Daten (Rang, Name, Zeitpunkt des Spiels, Geldbetrag und Anzahl der Spielrunden).     |   Der Eintrag des Spielers zeigt korrekte Daten (Rang, Name, Zeitpunkt des Spiels, Geldbetrag und Anzahl der Spielrunden) in der Highscore-Liste.     |
+| 8.1  | Öffne das Spiel und starte eine neue Spielrunde.      | Überprüfe, ob dieselben Rätselwörter oder Phrasen erneut gestellt wurden. | Der Spieler bekommt während einer neuen Spielrunde keine bereits gestellten Rätselwörter oder Phrasen erneut gestellt.       |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 # 5 Prototyp
-Siehe Code
+Siehe im Code
 
 # 6 Implementation
 
@@ -78,7 +77,7 @@ Siehe Code
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-|   1    |       |              |
+|   1    |  20.02.2023   |Ich habe einen Login ertsellt und mit Firebase verbunden             |
 |    2   |       |              |
 |   3    |       |              |
 |    4   |       |              |
